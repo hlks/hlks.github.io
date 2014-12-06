@@ -1,0 +1,124 @@
+@media (max-width: 767px) {
+    .navbar {
+        padding-top: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .navbar {
+        padding-top: 50px;
+    }
+}
+
+.navbar {
+    border: 0;
+
+    a {
+        outline: 0;
+    }
+}
+
+.navbar-default {
+    background: none;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .active > a {
+    color: #eee;
+    background: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+ {
+    background: none;
+    border-bottom: 1px solid white;
+    color: #eee;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ccc;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+@media (min-width: 751px) {
+    .fullmoon {
+        background-size: 100% auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .fullmoon {
+        background-size: auto 100%;
+    }
+}
+
+.fullmoon {
+    background-image: url(/images/header-background.jpg);
+    height: 400px;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-family: 'Clicker Script', cursive;
+    color: white;
+    background-color: #eee;
+
+    font-size: 24px;
+    letter-spacing: 3px;
+
+    -webkit-border-radius: 24px;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius: 24px;
+    -moz-border-radius-bottomright: 2px;
+    border-radius: 24px;
+    border-bottom-right-radius: 2px;
+}
+
+.posts-list {
+    h3 {
+        font-size: 14px;
+        margin-bottom: 0;
+
+        a {
+            color: #111;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    span {
+        a {
+            color: #888;
+            text-decoration: none;
+            font-size: 12px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.main {
+    h2 {
+        font-weight: 300;
+        margin-top: 0;
+    }
+
+    ul a {
+        line-height: 23px;
+    }
+
+    .clearfix {
+        margin-bottom: 80px;
+    }
+}

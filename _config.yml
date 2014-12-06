@@ -1,0 +1,59 @@
+# Site settings
+title: HLKS
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+
+
+navigation:
+- text: HLKS
+  url: /index.html
+- text: TOIMINTA
+  url: /toiminta
+- text: OPISKELU
+  url: /opiskelu
+- text: PESÄKE
+  url: /pesake
+
+toiminta:
+- text: Hallitus
+  url: /toiminta/hallitus
+- text: Vuosikurssit ja vastuuhenkilöt
+  url: /toimita/vuosikurssit
+- text: Kandidaattiseuran vuosijuhlat
+  url: /toiminta/vuosijuhlat
+- text: Jäsenedut 
+  url: /toiminta/jasenedut
+- text: Kandihuone
+  url: /toiminta/kandihuone
+- text: Myyntiluukku
+  url: /toiminta/myyntiluukku
+- text: Organon Dentale
+  url: /toiminta/oraganon-dentale
+- text: Alumni
+  url: /toiminta/alumni
+
+opiskelu:
+- text: Varjo-opintosuunnitelma
+  url: /opiskelu/varjo-opintosuunnitelma
+- text: Kaivo
+  url: /opiskelu/kaivo
+- text: Tenttiarkisto 
+  url: /opiskelu/tenttiarkisto
+- text: Kalenteri
+  url: opiskelu/kalenteri
+- text: Ilmoittautuminen tapahtumiin
+  url: /opiskelu/ilmoittautuminen-tapahtumiin
+
+kerhotila:
+- text: Sijainti ja yhteystiedot
+  url: /kerhotila/yhteystiedot
+- text: Vuokraa
+  url: /kerhotila/vuokraa

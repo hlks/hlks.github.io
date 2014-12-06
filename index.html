@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<div class="container main">
+  <div class="row">
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>HLKS</h2>
+        </div>
+        <div class="col-sm-8">   
+          <p>Olemme suomen vanhin hammaslääketieteen ainejärjestö. Hammaslääketieteenkandidaattiseura ry on perustettu jo 1945 ja se edustaan Helsingin hammaslääketieteen opiskelijoita Helsingin yliopistossa ja Suomessa. Toiminta tapahtuu opiskelijajohtoisesti, jota johtaa 10 henkinen hallitus sekä useat toimihenkilöt.</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-sm-4">
+          <h2>TOIMINTA</h2>
+          <ul class="list-unstyled">
+            {% for link in site.toiminta %}
+            <li {% if page.url == link.url %}class="active"{% endif %}>
+               <a href="{{link.url}}" title="{{link.title}}">{{link.text}}
+               {% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif %}
+               </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-sm-8">
+          <p>Näin me vaikutamme</p>
+
+          <p>Olemme mukana Helsingin Lääketieteellisessä tiedekunnassa monissa työryhmissä, jossa pyrimme parantamaan opintoja sekä valvomme omia etujamme. Lisäksi meillä on edustajia Helsingin Yliopiston edustajistossa, Suomen Hammaslääketieteen Opiskelijain liitossa, Hammaslääkäriliitossa sekä Apolloniassa.</p>
+
+          <p>Opiskelijoiden hyvinvointia parantamassa</p>
+
+          <p>Yksi tärkeimmistä tehtävistämme on tarjota jäsenillemme vapaa-ajan toimintaa kulttuurin ja liikunnan muodossa. Vuoden tärkein ja arvostetuin juhlatapahtuma on kandidaattiseuran Vuosijuhlat, joissa kohotamme maljan ja juhlistamme toimintaamme! Tämän lisäksi järjestämme monia juhlia ja sitsejä kandiseuran jäsenille, joista yksi suosituimmista ja perinteikkäimmistä on Ruskajuhla syksyisin. HLKS tarjoaa jäsenilleen myös päivittäin kahvia kandihuoneella sekä pyrkii parantamaan kollegiaalisuutta ja parantamaan jäsenistöä huolettavia asioita. </p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-sm-4">
+          <h2>OPISKELU</h2>
+          <ul class="list-unstyled">
+            {% for link in site.opiskelu %}
+            <li {% if page.url == link.url %}class="active"{% endif %}>
+               <a href="{{link.url}}" title="{{link.title}}">{{link.text}}
+               {% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif %}
+               </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-sm-8">
+          <p>Tule opiskelemaan hampaalle! Hammaslääkärin työ tarjoaa monia vaihtoehtoja; kliinistätyötä, tutkimusta, asiantuntijuutta sekä erikositusmisopintoja. Työ on monipuolista ja haastavaa sekä palkkaus että työtilanne on hyvä. Opinnot koostuvat prekliinisestä vaiheesta, jossa luetaan yleismedisiinaa ja sen jälkeen erikoistutaan suun ja päänalueen erikoislääkäriksi kliinisessä vaiheessa. Täällä Helsingissä me puhallamme samaan hiileen, olemme kunnianhimoisia ja ylpeitä siitä mitä me teemme!</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-sm-4">
+          <h2>KERHOTILA</h2>
+          <ul class="list-unstyled">
+            {% for link in site.kerhotila %}
+            <li {% if page.url == link.url %}class="active"{% endif %}>
+               <a href="{{link.url}}" title="{{link.title}}">{{link.text}}
+               {% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif %}
+               </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-sm-8">
+          <p>Meillä on oma hieno kerhotila, Pesäke, Merihaassa. Kerhotilalla on suuri juhlasali, kabinetti, keittiö ja korkeatasoinen äänentoisto.</p>
+
+          <p>Kerhotilalle mahtuu juhlimaan jopa 150 ihmistä. Vuokraamme kerhotilaa myös omaan käyttöön! Ota yhtettä isäntään!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 posts-list">
+      {% for post in site.posts %}
+        <h3>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }} {{ post.author }}</a></span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
