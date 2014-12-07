@@ -85,6 +85,11 @@ p, a, address, strong {
     border-bottom-right-radius: 2px;
 }
 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: #eee;
+}
+
 .posts-list {
     h3 {
         font-size: 14px;
@@ -138,6 +143,22 @@ p, a, address, strong {
     }
 }
 
+.post {
+    .post-header {
+        h1 {
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+
+        p {
+            color: #888;
+            font-size: 12px;
+        }
+    }
+}
+
 .footer {
     margin: 80px 0 100px;
 
@@ -158,3 +179,4 @@ p, a, address, strong {
         padding-top: 30px;
     }
 }
+
