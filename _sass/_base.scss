@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6,
+p, a, address, strong {
+    font-family: 'Lato', sans-serif;
+}
+
 @media (max-width: 767px) {
     .navbar {
         padding-top: 20px;
@@ -112,13 +117,44 @@
     h2 {
         font-weight: 300;
         margin-top: 0;
+
+        a {
+            color: #000;
+        }
+    }
+
+    p {
+        line-height: 24px;
+        font-size: 16px;
     }
 
     ul a {
         line-height: 23px;
+        padding: 1px 0;
     }
 
     .clearfix {
         margin-bottom: 80px;
+    }
+}
+
+.footer {
+    margin: 80px 0 100px;
+
+    p {
+        font-size: 12px;
+    }
+
+    .icons {
+        padding-bottom: 20px;
+    }
+
+    .fa-stack.fa-lg {
+        color: #5C9838;
+    }
+
+    .container {
+        border-top: 1px dotted #ccc;
+        padding-top: 30px;
     }
 }
