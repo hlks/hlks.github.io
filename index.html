@@ -16,16 +16,7 @@ layout: default
         <div class="clearfix"></div>
 
         <div class="col-sm-4">
-          <h2><a href="/toiminta">TOIMINTA</a></h2>
-          <ul class="list-unstyled">
-            {% for link in site.toiminta %}
-            <li {% if page.url == link.url %}class="active"{% endif %}>
-               <a href="{{link.url}}" title="{{link.title}}">{{link.text}}
-               {% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif %}
-               </a>
-            </li>
-            {% endfor %}
-          </ul>
+          {% include links-of-toiminta.html %}
         </div>
         <div class="col-sm-8">
           <p>Näin me vaikutamme</p>
@@ -40,16 +31,7 @@ layout: default
         <div class="clearfix"></div>
 
         <div class="col-sm-4">
-          <h2><a href="/opiskelu">OPISKELU</a></h2>
-          <ul class="list-unstyled">
-            {% for link in site.opiskelu %}
-            <li {% if page.url == link.url %}class="active"{% endif %}>
-               <a href="{{link.url}}" title="{{link.title}}">{{link.text}}
-               {% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif %}
-               </a>
-            </li>
-            {% endfor %}
-          </ul>
+          {% include links-of-opiskelu.html %}
         </div>
         <div class="col-sm-8">
           <p>Tule opiskelemaan hampaalle! Hammaslääkärin työ tarjoaa monia vaihtoehtoja; kliinistätyötä, tutkimusta, asiantuntijuutta sekä erikositusmisopintoja. Työ on monipuolista ja haastavaa sekä palkkaus että työtilanne on hyvä. Opinnot koostuvat prekliinisestä vaiheesta, jossa luetaan yleismedisiinaa ja sen jälkeen erikoistutaan suun ja päänalueen erikoislääkäriksi kliinisessä vaiheessa. Täällä Helsingissä me puhallamme samaan hiileen, olemme kunnianhimoisia ja ylpeitä siitä mitä me teemme!</p>
@@ -58,16 +40,7 @@ layout: default
         <div class="clearfix"></div>
 
         <div class="col-sm-4">
-          <h2><a href="/kerhotila">KERHOTILA</a></h2>
-          <ul class="list-unstyled">
-            {% for link in site.kerhotila %}
-            <li {% if page.url == link.url %}class="active"{% endif %}>
-               <a href="{{link.url}}" title="{{link.title}}">{{link.text}}
-               {% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif %}
-               </a>
-            </li>
-            {% endfor %}
-          </ul>
+          {% include links-of-kerhotila.html %}
         </div>
         <div class="col-sm-8">
           <p>Meillä on oma hieno kerhotila, <i>Pesäke</i>, Merihaassa. Kerhotilalla on suuri juhlasali, kabinetti, keittiö ja korkeatasoinen äänentoisto.</p>
@@ -77,12 +50,7 @@ layout: default
       </div>
     </div>
     <div class="col-sm-3 posts-list">
-      {% for post in site.posts %}
-        <h3>
-          <a href="{{ post.url | prepend: site.baseurl }}#more">{{ post.title }}</a>
-        </h3>
-        <span><a href="{{ post.url | prepend: site.baseurl }}#more">{{ post.date | date: "%b %-d, %Y" }} {{ post.author }}</a></span>
-      {% endfor %}
+      {% include list-of-posts.html %}
     </div>
   </div>
 </div>

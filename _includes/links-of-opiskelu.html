@@ -1,0 +1,10 @@
+<h2><a href="/opiskelu">OPISKELU</a></h2>
+<ul class="list-unstyled">
+{% for link in site.opiskelu %}
+    <li {% if page.url == link.url %}class="active"{% endif %}>
+        <a href="{{link.url}}" title="{{link.title}}">{{link.text}}
+            {% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif %}
+        </a>
+    </li>
+{% endfor %}
+</ul>
