@@ -2,7 +2,7 @@
 layout: post
 title:  "Itsenäisyyspäiväsitsit"
 date:   2014-11-17 22:24:00
-categories: Hallitus
+categories: blog
 author: Marko Järveläinen
 ---
 

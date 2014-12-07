@@ -2,7 +2,7 @@
 layout: post
 title:  "HLKS hallitus ja toimihenkilöt 2015"
 date:   2014-12-03 17:13:00
-categories: Hallitus
+categories: blog
 author: Marko Järveläinen
 ---
 

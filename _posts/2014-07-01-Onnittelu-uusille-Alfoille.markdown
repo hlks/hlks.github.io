@@ -2,7 +2,7 @@
 layout: post
 title:  "Onnittelut uusille Alfoille!"
 date:   2014-07-01 16:20:00
-categories: Hallitus
+categories: blog
 author: 
 ---
 
