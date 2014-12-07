@@ -16,44 +16,44 @@ navigation:
 - text: HLKS
   url: /index.html
 - text: TOIMINTA
-  url: /toiminta
+  url: /toiminta/
 - text: OPISKELU
-  url: /opiskelu
-- text: PESÄKE
-  url: /pesake
+  url: /opiskelu/
+- text: KERHOTILA
+  url: /kerhotila/
 
 toiminta:
 - text: Hallitus
-  url: /toiminta/hallitus
+  url: /toiminta/hallitus/
 - text: Vuosikurssit ja vastuuhenkilöt
-  url: /toimita/vuosikurssit
+  url: /toimita/vuosikurssit/
 - text: Kandidaattiseuran vuosijuhlat
-  url: /toiminta/vuosijuhlat
+  url: /toiminta/vuosijuhlat/
 - text: Jäsenedut 
-  url: /toiminta/jasenedut
+  url: /toiminta/jasenedut/
 - text: Kandihuone
-  url: /toiminta/kandihuone
+  url: /toiminta/kandihuone/
 - text: Myyntiluukku
-  url: /toiminta/myyntiluukku
+  url: /toiminta/myyntiluukku/
 - text: Organon Dentale
-  url: /toiminta/oraganon-dentale
+  url: /toiminta/oraganon-dentale/
 - text: Alumni
-  url: /toiminta/alumni
+  url: /toiminta/alumni/
 
 opiskelu:
 - text: Varjo-opintosuunnitelma
-  url: /opiskelu/varjo-opintosuunnitelma
+  url: /opiskelu/varjo-opintosuunnitelma/
 - text: Kaivo
-  url: /opiskelu/kaivo
+  url: /opiskelu/kaivo/
 - text: Tenttiarkisto 
-  url: /opiskelu/tenttiarkisto
+  url: /opiskelu/tenttiarkisto/
 - text: Kalenteri
-  url: opiskelu/kalenteri
+  url: opiskelu/kalenteri/
 - text: Ilmoittautuminen tapahtumiin
-  url: /opiskelu/ilmoittautuminen-tapahtumiin
+  url: /opiskelu/ilmoittautuminen-tapahtumiin/
 
 kerhotila:
 - text: Sijainti ja yhteystiedot
-  url: /kerhotila/yhteystiedot
+  url: /kerhotila/yhteystiedot/
 - text: Vuokraa
-  url: /kerhotila/vuokraa
+  url: /kerhotila/vuokraa/
