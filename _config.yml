@@ -26,7 +26,7 @@ toiminta:
 - text: Hallitus
   url: /toiminta/hallitus/
 - text: Vuosikurssit ja vastuuhenkilöt
-  url: /toimita/vuosikurssit/
+  url: /toiminta/vuosikurssit/
 - text: Kandidaattiseuran vuosijuhlat
   url: /toiminta/vuosijuhlat/
 - text: Jäsenedut 
@@ -36,7 +36,7 @@ toiminta:
 - text: Myyntiluukku
   url: /toiminta/myyntiluukku/
 - text: Organon Dentale
-  url: /toiminta/oraganon-dentale/
+  url: /toiminta/organon-dentale/
 - text: Alumni
   url: /toiminta/alumni/
 
@@ -48,7 +48,7 @@ opiskelu:
 - text: Tenttiarkisto 
   url: /opiskelu/tenttiarkisto/
 - text: Kalenteri
-  url: opiskelu/kalenteri/
+  url: /opiskelu/kalenteri/
 - text: Ilmoittautuminen tapahtumiin
   url: /opiskelu/ilmoittautuminen-tapahtumiin/
 
