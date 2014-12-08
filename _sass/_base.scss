@@ -46,26 +46,26 @@ p, a, address, strong {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #ccc;
+    color: #999;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-@media (min-width: 751px) {
-    .fullmoon {
-        background-size: 100% auto;
-    }
-}
-
-@media (max-width: 750px) {
+@media (max-width: 1096px) {
     .fullmoon {
         background-size: auto 100%;
     }
 }
 
+@media (min-width: 1097px) {
+    .fullmoon {
+        background-size: 100% auto;
+    }
+}
+
 .fullmoon {
-    background-image: url(/images/header-background.jpg);
-    height: 400px;
-    background-position: center center;
+    background-image: url(/images/hand-background.jpg);
+    height: 600px;
+    background-position: right top;
     margin-bottom: 30px;
 }
 
@@ -115,6 +115,11 @@ p, a, address, strong {
                 text-decoration: none;
             }
         }
+    }
+
+    img {
+        display: block;
+        padding-top: 30px;
     }
 }
 

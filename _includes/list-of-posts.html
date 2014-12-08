@@ -1,3 +1,4 @@
+<h2>Tapahtumat</h2>
 {% for post in site.posts %}
     <h3>
         <a href="{{ post.url | prepend: site.baseurl }}#more">{{ post.title }}</a>
@@ -6,3 +7,9 @@
         <a href="{{ post.url | prepend: site.baseurl }}#more">{{ post.date | date: "%b %-d, %Y" }} {{ post.author }}</a>
     </span>
 {% endfor %}
+
+<a href="http://cursusmanussanantes.blogspot.fi/">
+    <img src="/images/cms-blogi.jpg" />
+</a>
+
+<img src="/images/yhteistyossa.jpg" />
