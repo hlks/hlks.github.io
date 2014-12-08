@@ -50,13 +50,13 @@ p, a, address, strong {
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-@media (max-width: 1096px) {
+@media (max-width: 700px) {
     .fullmoon {
         background-size: auto 100%;
     }
 }
 
-@media (min-width: 1097px) {
+@media (min-width: 701px) {
     .fullmoon {
         background-size: 100% auto;
     }
@@ -64,8 +64,8 @@ p, a, address, strong {
 
 .fullmoon {
     background-image: url(/images/hand-background.jpg);
-    height: 600px;
-    background-position: right top;
+    height: 400px;
+    background-position: center;
     margin-bottom: 30px;
 }
 
