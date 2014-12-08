@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, h6,
 p, a, address, strong {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Old Standard TT', serif;
 }
 
 @media (max-width: 767px) {
@@ -50,13 +50,13 @@ p, a, address, strong {
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 573px) {
     .fullmoon {
         background-size: auto 100%;
     }
 }
 
-@media (min-width: 701px) {
+@media (min-width: 574px) {
     .fullmoon {
         background-size: 100% auto;
     }
@@ -129,7 +129,7 @@ p, a, address, strong {
         margin-top: 0;
 
         a {
-            color: #000;
+            color: #333;
         }
     }
 
