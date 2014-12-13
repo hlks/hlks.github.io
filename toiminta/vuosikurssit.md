@@ -19,6 +19,8 @@ C I. - Cursus Dens Primus, 2014 aloittaneet
 
 C II. - Cursus Manus Sanantes, 2013 aloittaneet
 
+![2013](https://cloud.githubusercontent.com/assets/2604922/5423492/d6e1d23e-82c8-11e4-8c69-d6081515f0ec.jpg)
+
     Isäntä: Antti Virtanen
     Emännät: Milla Mukka, Fanny Bergmann
     Talousvastaava: Leo Heinonen
