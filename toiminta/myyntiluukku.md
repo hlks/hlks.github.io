@@ -19,6 +19,8 @@ Käsikappale on järjestömme oma laulukirja, josta löytyy lauluja sitseille ja
 
 HINTA: 12 €. 
 
+![Käsikappale](https://cloud.githubusercontent.com/assets/2604922/5423883/13074008-82df-11e4-82e9-b9ec362c9051.jpg)
+
 ## Juhlanauha
 
 Juhlanauhaa käytetään vuosijuhlissa sekä muissa hienoissa edustustapahtumissa frakin tai iltapuvun kanssa.
