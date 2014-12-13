@@ -8,14 +8,14 @@ permalink: /toiminta/vuosikurssit/
 
 C I. - Cursus Dens Primus, 2014 aloittaneet
 
-   Isäntä: Sami Leinonen
-   Emännät: Tytti Tuomi, Meri Sieviläinen
-   Talousvastaava: Tiina Nieminen
-   Kulttuurivastaava: Vladimir Heiskanen
-   Urheiluvastaava: Katja Eloranta
-   Apuemännät: Katriina Niemi, Elin Peuraharju
-   Haalarivastaavat: Kaisa Niskanen, Tiia Immonen, Sanna Puustinen, Anne Piittinen,
-   Sami Leinonen
+    Isäntä: Sami Leinonen
+    Emännät: Tytti Tuomi, Meri Sieviläinen
+    Talousvastaava: Tiina Nieminen
+    Kulttuurivastaava: Vladimir Heiskanen
+    Urheiluvastaava: Katja Eloranta
+    Apuemännät: Katriina Niemi, Elin Peuraharju
+    Haalarivastaavat: Kaisa Niskanen, Tiia Immonen, Sanna Puustinen, Anne Piittinen,
+    Sami Leinonen
 
 C II. - Cursus Manus Sanantes, 2013 aloittaneet
 
