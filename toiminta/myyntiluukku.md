@@ -19,7 +19,7 @@ Käsikappale on järjestömme oma laulukirja, josta löytyy lauluja sitseille ja
 
 HINTA: 12 €. 
 
-![Käsikappale](https://cloud.githubusercontent.com/assets/2604922/5423883/13074008-82df-11e4-82e9-b9ec362c9051.jpg)
+<p><img class="img-circle img-resposive" alt="Käsikappale" src="https://cloud.githubusercontent.com/assets/2604922/5423883/13074008-82df-11e4-82e9-b9ec362c9051.jpg"></p>
 
 ## Juhlanauha
 
@@ -28,6 +28,8 @@ Juhlanauhasta naiset taittelevat ruusukkeen, eikä se saa koskettaa paljasta iho
 Taitteluohje: 
 
 HINTA: 2,50 €
+
+<p><img class="img-circle img-resposive" alt="Käsikappale" src="https://cloud.githubusercontent.com/assets/2604922/5423913/417c3c3a-82e0-11e4-8b3e-295fc1c98061.jpg"></p>
 
 ## Haalarimerkit
 
